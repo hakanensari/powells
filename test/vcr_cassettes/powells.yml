@@ -1978,4 +1978,70 @@ http_interactions:
         Potter and the Chamber of Secrets","publisher":"Scholastic Paperbacks","list_prices":{"0.00":1}}]}'
     http_version: 
   recorded_at: Thu, 19 Jun 2014 10:12:58 GMT
+- request:
+    method: get
+    uri: http://api.powells.com/v0c/testing/search/harry%20potter?debug=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - excon/0.37.0
+  response:
+    status:
+      code: 200
+      message: 
+    headers:
+      Server:
+      - Apache
+      Content-Type:
+      - application/json; charset=UTF-8
+      P3P:
+      - CP="CURa ADMa TAIa CONi OUR IND PHY ONL UNI FIN NAV DSP ALL COR"
+      X-Cacheable:
+      - 'YES'
+      Content-Length:
+      - '6784'
+      Date:
+      - Thu, 19 Jun 2014 10:16:24 GMT
+      X-Varnish:
+      - 1472890683 1472888941
+      Age:
+      - '58'
+      Via:
+      - 1.1 varnish
+      Connection:
+      - close
+      X-Cache:
+      - HIT
+    body:
+      encoding: UTF-8
+      string: '{"msg":[],"input":{"extension":null,"page":"1","per_page":"10","debug":"1","api":"search","apikey":"testing"},"status":"success","meta":{"utm_source":"powellsapi","page":1,"last_page":64,"per_page":10,"page_results":"639","internal":1},"results":[{"cover_images":{"60":"http://content-2.powells.com/bookcovers/60/9780545615402","120":"http://content-2.powells.com/bookcovers/120/9780545615402"},"related_isbns":["9780545615402"],"author":{"alpha":"Hermione
+        Granger (trn)","proper":"Hermione Granger (trn)"},"product_page":"http://www.powells.com/biblio/9780545615402?utm_source=powellsapi","isbn":"9780545615402","title":"The
+        Hogwarts Library (Harry Potter)","publisher":"Scholastic","list_prices":{"29.99":1}},{"cover_images":{"60":"http://content-0.powells.com/bookcovers/60/9781608870080","120":"http://content-0.powells.com/bookcovers/120/9781608870080"},"related_isbns":["9781608870080"],"author":{"alpha":"Jk
+        Rowling","proper":"Jk Rowling"},"product_page":"http://www.powells.com/biblio/9781608870080?utm_source=powellsapi","isbn":"9781608870080","title":"Harry
+        Potter: A Pop-Up Book: Based on the Film Phenomenon","publisher":"Insight
+        Editions","list_prices":{"0.00":1}},{"cover_images":{"60":"http://content-7.powells.com/bookcovers/60/9780590353427","120":"http://content-7.powells.com/bookcovers/120/9780590353427"},"related_isbns":["9780590353427","9780439203524","9780439211161","9780439332972","9780439362139","9780439366731","9780439554930","9780553668384","9780590353403","9780606170970","9780606172332","9780606216067","9780613206334","9780613959926","9780736690003","9780545069670"],"author":{"alpha":"J.
+        K. Rowling","proper":"J. K. Rowling"},"product_page":"http://www.powells.com/biblio/9780590353427?utm_source=powellsapi","isbn":"9780590353427","title":"Harry
+        Potter and the Sorcerer''s Stone (Harry Potter #1)","publisher":"Arthur A.
+        Levine Books","list_prices":{"10.99":1}},{"cover_images":{"60":"http://content-3.powells.com/bookcovers/60/9780439064873","120":"http://content-3.powells.com/bookcovers/120/9780439064873"},"related_isbns":["9780439064873","9780195798760","9780439064866","9780439107341","9780439138079","9780439203531","9780439211147","9780439221306","9780439221313","9780439420105","9780439438773","9780439438780","9780439451932","9780439554893","9780553668704"],"author":{"alpha":"J.
+        K. Rowling","proper":"J. K. Rowling"},"product_page":"http://www.powells.com/biblio/9780439064873?utm_source=powellsapi","isbn":"9780439064873","title":"Harry
+        Potter and the Chamber of Secrets (2)","publisher":"Scholastic","list_prices":{"10.99":1}},{"cover_images":{"60":"http://content-5.powells.com/bookcovers/60/9780439136365","120":"http://content-5.powells.com/bookcovers/120/9780439136365"},"related_isbns":["9780439136365","9780439144155","9780439211154","9780439321471","9780439321488","9780439554923","9780439655484","9780439661966","9780606215848","9780613371063","9780736691314","9780786222742","9780807282311","9780807282328","9780439136358"],"author":{"alpha":"J.
+        K. Rowling","proper":"J. K. Rowling"},"product_page":"http://www.powells.com/biblio/9780439136365?utm_source=powellsapi","isbn":"9780439136365","title":"Harry
+        Potter and the Prisoner of Azkaban (Harry Potter #3)","publisher":"Scholastic","list_prices":{"10.99":1}},{"cover_images":{"60":"http://content-1.powells.com/bookcovers/60/9780439139601","120":"http://content-1.powells.com/bookcovers/120/9780439139601"},"related_isbns":["9780439139601","9780439139595","9780439231947","9780439554909","9780606212274","9780606250337","9780613359573","9780613496742","9780736655194","9780786229277","9780807282588","9780807282595","9780807286036","9780807287934","9781594130038"],"author":{"alpha":"J.
+        K. Rowling","proper":"J. K. Rowling"},"product_page":"http://www.powells.com/biblio/9780439139601?utm_source=powellsapi","isbn":"9780439139601","title":"Harry
+        Potter and the Goblet of Fire (Harry Potter #4)","publisher":"Scholastic Paperbacks","list_prices":{"12.99":1}},{"cover_images":{"60":"http://content-1.powells.com/bookcovers/60/9780439358071","120":"http://content-1.powells.com/bookcovers/120/9780439358071"},"related_isbns":["9780439358071","9780439358064","9780439567619","9780439567626","9780439686518","9780439686525","9780439686532","9780439701952","9780439715119","9780439719858","9780606298889","9780606305761","9780613996785","9780613999168","9780786257782"],"author":{"alpha":"J.
+        K. Rowling","proper":"J. K. Rowling"},"product_page":"http://www.powells.com/biblio/9780439358071?utm_source=powellsapi","isbn":"9780439358071","title":"Harry
+        Potter and the Order of the Phoenix (Harry Potter #05)","publisher":"Scholastic
+        Paperbacks","list_prices":{"12.99":1}},{"cover_images":{"60":"http://content-1.powells.com/bookcovers/60/9780545010221","120":"http://content-1.powells.com/bookcovers/120/9780545010221"},"related_isbns":["9780545010221","9780545029360","9780545029377","9785557850902","9785557850919","9780739360385","9780739360392","9780786296651","9785557758994","9785557759007","9788498381450","9788498381467","9780545139700","9781594133558","9784915512636"],"author":{"alpha":"J.
+        K. Rowling","proper":"J. K. Rowling"},"product_page":"http://www.powells.com/biblio/9780545010221?utm_source=powellsapi","isbn":"9780545010221","title":"Harry
+        Potter and the Deathly Hallows (Harry Potter #07)","publisher":"Arthur A.
+        Levine Books","list_prices":{"34.99":1}},{"cover_images":{"60":"http://content-4.powells.com/bookcovers/60/9780439358064","120":"http://content-4.powells.com/bookcovers/120/9780439358064"},"related_isbns":["9780439358064","9780439358071","9780439567619","9780439567626","9780439686518","9780439686525","9780439686532","9780439701952","9780439715119","9780439719858","9780606298889","9780606305761","9780613996785","9780613999168","9780786257782","9780606323499"],"author":{"alpha":"J
+        K Rowling","proper":"J K Rowling"},"product_page":"http://www.powells.com/biblio/9780439358064?utm_source=powellsapi","isbn":"9780439358064","title":"Harry
+        Potter #5: Harry Potter and the Order of the Phoenix","publisher":"Arthur
+        A. Levine Books","list_prices":{"29.99":1}},{"cover_images":{"60":"http://content-2.powells.com/bookcovers/60/9780439784542","120":"http://content-2.powells.com/bookcovers/120/9780439784542"},"related_isbns":["9780439784542","9780307283641","9780307283658","9780307283665","9780307283672","9780439785969","9780439786775","9780439791328","9780786277452","9781417729876","9781417751396","9785556255692","9788478889921","9788478889938","9781594132216"],"author":{"alpha":"J.
+        K. Rowling","proper":"J. K. Rowling"},"product_page":"http://www.powells.com/biblio/9780439784542?utm_source=powellsapi","isbn":"9780439784542","title":"Harry
+        Potter and the Half-Blood Prince (Harry Potter #06)","publisher":"Scholastic","list_prices":{"29.99":1}}]}'
+    http_version: 
+  recorded_at: Thu, 19 Jun 2014 10:16:26 GMT
 recorded_with: VCR 2.9.2

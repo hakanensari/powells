@@ -75,4 +75,9 @@ class TestPowells < Minitest::Unit::TestCase
     res = @powells.search('harry potter', per_page: 20)
     assert_equal 20, res.to_h['results'].count
   end
+
+  def test_debug
+    res = @powells.debug.search('harry potter')
+    assert_includes res.to_h.keys, 'input'
+  end
 end

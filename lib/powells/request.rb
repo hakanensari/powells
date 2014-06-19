@@ -64,10 +64,17 @@ module Powells
       self
     end
 
+    # Debug requests
+    def debug
+      @debug = true
+      self
+    end
+
     private
 
     def get(*query, options: {})
       path = build_path(query)
+      options.update(debug: 1) if @debug
       res = http.get(path: path, query: options)
 
       Response.new(res)
