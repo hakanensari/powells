@@ -3,13 +3,8 @@ require 'powells/response'
 
 module Powells
   class Request
-    # The current API version
-    #
-    # See http://api.powells.com/stable
-    STABLE_API_VERSION = 'v0c'.freeze
-
     # Create a new request
-    def initialize(api_key: ENV['POWELLS_API_KEY'], api_version: STABLE_API_VERSION)
+    def initialize(api_key: ENV['POWELLS_API_KEY'], api_version: 'v0c')
       @api_key = api_key
       @api_version = api_version
     end
