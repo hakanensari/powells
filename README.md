@@ -1,5 +1,5 @@
-# Powells
+# Ruby wrapper to the Powells API
 
-**Powells** is a Ruby wrapper to the [Powells API][1].
+It does what it says [on the tin][1].
 
 [1]: http://api.powells.com/stable
