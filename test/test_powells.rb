@@ -80,4 +80,10 @@ class TestPowells < Minitest::Unit::TestCase
     res = @powells.debug.search('harry potter')
     assert_includes res.to_h.keys, 'input'
   end
+
+  def test_api_key_guard
+    assert_raises(ArgumentError) do
+      Powells.new.search('foo')
+    end
+  end
 end

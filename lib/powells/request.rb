@@ -80,7 +80,11 @@ module Powells
     end
 
     def build_path(ary)
-      [@api_version, @api_key].concat(ary).compact.join('/')
+      [@api_version, api_key].concat(ary).compact.join('/')
+    end
+
+    def api_key
+      @api_key or raise ArgumentError.new('Missing API key')
     end
   end
 end
