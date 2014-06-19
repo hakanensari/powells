@@ -70,4 +70,9 @@ class TestPowells < Minitest::Unit::TestCase
     res = @powells.apistatus
     refute_empty res.to_h
   end
+
+  def test_accepts_options
+    res = @powells.search('harry potter', per_page: 20)
+    assert_equal 20, res.to_h['results'].count
+  end
 end

@@ -37,19 +37,19 @@ module Powells
     end
 
     # Retrieve product information by way of keywords
-    def search(keywords)
-      get('search', URI.encode(keywords))
+    def search(keywords, options = {})
+      get('search', URI.encode(keywords), options: options)
     end
 
     # Retrieve product information for related products
-    def recommendation(isbn)
-      get('recommendation', isbn)
+    def recommendation(isbn, options = {})
+      get('recommendation', isbn, options: options)
     end
 
     # A list of up to 50 of the bestselling titles from Powells's Portland
     # locations, sorted most popular first
-    def pdxbestsellers
-      get('pdxbestsellers')
+    def pdxbestsellers(options = {})
+      get('pdxbestsellers', options: options)
     end
 
     # This feed is what Powell's will use to communicate any known issues with
@@ -66,9 +66,9 @@ module Powells
 
     private
 
-    def get(*query)
+    def get(*query, options: {})
       path = build_path(query)
-      res = http.get(path: path)
+      res = http.get(path: path, query: options)
 
       Response.new(res)
     end
