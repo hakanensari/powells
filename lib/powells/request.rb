@@ -4,14 +4,13 @@ require 'powells/response'
 module Powells
   class Request
     # Create a new request
-    def initialize(api_key: ENV['POWELLS_API_KEY'], api_version: 'v0c')
+    def initialize(api_key: ENV['POWELLS_API_KEY'])
       @api_key = api_key
-      @api_version = api_version
     end
 
     # Retrieve inventory data for a particular ISBN or SKU
     def inventory(isbn_or_sku)
-      get('inventory', isbn_or_sku)
+      get('Inventory', isbn_or_sku)
     end
 
     # Retrieve product data for a particular ISBN or SKU
@@ -33,7 +32,8 @@ module Powells
 
     # Retrieve product information by way of keywords
     def search(keywords, options = {})
-      get('search', URI.encode(keywords), options: options)
+      encoded_keywords = URI.encode(keywords) + '/'
+      get('search', encoded_keywords, options: options)
     end
 
     # Retrieve product information for related products
@@ -47,18 +47,6 @@ module Powells
       get('pdxbestsellers', options: options)
     end
 
-    # This feed is what Powell's will use to communicate any known issues with
-    # particular API calls or the API in general
-    def apistatus
-      get('apistatus')
-    end
-
-    # Switch to development environment
-    def sandbox
-      @api_key = 'testing'
-      self
-    end
-
     # Debug requests
     def debug
       @debug = true
@@ -68,7 +56,7 @@ module Powells
     private
 
     def get(*query, options: {})
-      path = build_path(query)
+      path = build_path(*query)
       options.update(debug: 1) if @debug
       res = http.get(path: path, query: options)
 
@@ -76,15 +64,15 @@ module Powells
     end
 
     def http
-      Excon.new('http://api.powells.com', expects: 200)
+      Excon.new('http://api.powells.com:8081', expects: 200)
     end
 
-    def build_path(ary)
-      [@api_version, api_key].concat(ary).compact.join('/')
+    def build_path(action, id = nil)
+      ['PowellsApi.svc', action, api_key, id].compact.join('/')
     end
 
     def api_key
-      @api_key or raise ArgumentError.new('Missing API key')
+      @api_key or fail ArgumentError, 'Missing API key'
     end
   end
 end
