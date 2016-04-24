@@ -2,153 +2,13 @@
 http_interactions:
 - request:
     method: get
-    uri: http://api.powells.com:8081/PowellsApi.svc/pdxbestsellers/<API_KEY>
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - excon/0.45.4
-  response:
-    status:
-      code: 200
-      message: 
-    headers:
-      Cache-Control:
-      - no-cache, no-store
-      Pragma:
-      - no-cache
-      Content-Length:
-      - '17827'
-      Content-Type:
-      - application/json; charset=utf-8
-      Expires:
-      - "-1"
-      Server:
-      - Microsoft-IIS/7.5
-      Access-Control-Allow-Origin:
-      - "*"
-      Set-Cookie:
-      - ASP.NET_SessionId=abwgzbgbver0gwybbmvatff2; path=/; HttpOnly
-      X-AspNet-Version:
-      - 4.0.30319
-      X-Powered-By:
-      - ASP.NET
-      Date:
-      - Sat, 05 Dec 2015 11:30:54 GMT
-    body:
-      encoding: UTF-8
-      string: '{"$VAR1":[{"msg":"[]","input":[{"extension":"data","page":"1","per_page":"10","api":"pdxbestsellers","apiKey":"<API_KEY>"}],"status":"success","meta":[{"utm_source":"powellsapi","partner_id":"37023","Internal":1}],"results":[{"product_page":"http://www.powells.com/book/Harry-Potter-Coloring-Book-1-9781338029994?partnerid=37023&p_wgt","title":"Harry
-        Potter: Coloring Book #1","isbn":"9781338029994","author":"Scholastic Inc.","publisher":"SCHOLASTIC
-        INC.","cover_images":"http://powells-covers-2.s3.amazonaws.com/9781338029994.jpg","listing_price":"15.99"},{"product_page":"http://www.powells.com/book/Mindfulness-Coloring-Book-Volume-2-Anti-Stress-Art-Therapy-for-Busy-People-9781615193028?partnerid=37023&p_wgt","title":"Mindfulness
-        Coloring Book, Volume 2: Anti Stress Art Therapy for Busy People","isbn":"9781615193028","author":"Emma
-        Farrarons","publisher":"Experiment","cover_images":"http://powells-covers-2.s3.amazonaws.com/9781615193028.jpg","listing_price":"9.95"},{"product_page":"http://www.powells.com/book/Portlandness-A-Cultural-Atlas-of-Portland-9781632170002?partnerid=37023&p_wgt","title":"Portlandness:
-        A Cultural Atlas of Portland","isbn":"9781632170002","author":"David Banis
-        and Hunter Shobe","publisher":"Sasquatch Books","cover_images":"http://powells-covers-2.s3.amazonaws.com/9781632170002.jpg","listing_price":"24.95"},{"product_page":"http://www.powells.com/book/S.-P.-Q.-R.-A-History-of-Ancient-Rome-9780871404237?partnerid=37023&p_wgt","title":"S.
-        P. Q. R.: A History of Ancient Rome","isbn":"9780871404237","author":"Mary
-        Beard","publisher":"Liveright Publishing Corporation","cover_images":"http://powells-covers-2.s3.amazonaws.com/9780871404237.jpg","listing_price":"35"},{"product_page":"http://www.powells.com/book/Between-the-World-and-Me-9780812993547?partnerid=37023&p_wgt","title":"Between
-        the World and Me","isbn":"9780812993547","author":"Ta-Nehisi Coates","publisher":"SPIEGEL
-        & GRAU","cover_images":"http://powells-covers-2.s3.amazonaws.com/9780812993547.jpg","listing_price":"24"},{"product_page":"http://www.powells.com/book/How-to-Be-Both-9780307275257?partnerid=37023&p_wgt","title":"How
-        to Be Both","isbn":"9780307275257","author":"Ali Smith","publisher":"Anchor
-        Books","cover_images":"http://powells-covers-2.s3.amazonaws.com/9780307275257.jpg","listing_price":"15.95"},{"product_page":"http://www.powells.com/book/The-Martian-9780553418026?partnerid=37023&p_wgt","title":"The
-        Martian","isbn":"9780553418026","author":"Andy Weir","publisher":"Broadway
-        Books","cover_images":"http://covers.powells.com/9780553418026.jpg","listing_price":"15"},{"product_page":"http://www.powells.com/book/Notorious-RBG-The-Life-and-Times-of-Ruth-Bader-Ginsburg-9780062415837?partnerid=37023&p_wgt","title":"Notorious
-        RBG: The Life and Times of Ruth Bader Ginsburg","isbn":"9780062415837","author":"Irin
-        Carmon and Shana Knizhnik","publisher":"HARPERCOLLINS PUBLISHERS","cover_images":"http://powells-covers-2.s3.amazonaws.com/9780062415837.jpg","listing_price":"19.99"},{"product_page":"http://www.powells.com/book/Lost-Ocean-An-Underwater-Adventure-and-Coloring-Book-9780143108993?partnerid=37023&p_wgt","title":"Lost
-        Ocean: An Underwater Adventure and Coloring Book","isbn":"9780143108993","author":"Johanna
-        Basford","publisher":"Penguin Books","cover_images":"http://powells-covers-2.s3.amazonaws.com/9780143108993.jpg","listing_price":"16.95"},{"product_page":"http://www.powells.com/book/Good-and-Cheap-Eat-Well-on-$4-per-Day-9780761184997?partnerid=37023&p_wgt","title":"Good
-        and Cheap: Eat Well on $4 per Day","isbn":"9780761184997","author":"Leanne
-        Brown","publisher":"WORKMAN PUBLISHING CO INC","cover_images":"http://powells-covers-2.s3.amazonaws.com/9780761184997.jpg","listing_price":"16.95"},{"product_page":"http://www.powells.com/book/The-Moors-Account-9780804170628?partnerid=37023&p_wgt","title":"The
-        Moors Account","isbn":"9780804170628","author":"Laila Lalami","publisher":"VINTAGE
-        BOOKS","cover_images":"http://powells-covers-2.s3.amazonaws.com/9780804170628.jpg","listing_price":"15.95"},{"product_page":"http://www.powells.com/book/Posh-Adult-Coloring-Book-Soothing-Designs-for-Fun-and-Relaxation-9781449472009?partnerid=37023&p_wgt","title":"Posh
-        Adult Coloring Book: Soothing Designs for Fun and Relaxation","isbn":"9781449472009","author":"Michael
-        O''Mara Books, Ltd","publisher":"ANDREWS MCMEEL PUBLISHING","cover_images":"http://covers.powells.com/9781449472009.jpg","listing_price":"12.99"},{"product_page":"http://www.powells.com/book/Calming-Therapy-An-Anti-Stress-Coloring-Book-9780762459605?partnerid=37023&p_wgt","title":"Calming
-        Therapy: An Anti-Stress Coloring Book","isbn":"9780762459605","author":"Running
-        Press","publisher":"RUNNING PRESS","cover_images":"http://covers.powells.com/9780762459605.jpg","listing_price":"15"},{"product_page":"http://www.powells.com/book/3D-Coloring-Animals-9781626864580?partnerid=37023&p_wgt","title":"3D
-        Coloring Animals","isbn":"9781626864580","author":"Hannah Davies","publisher":"THUNDER
-        BAY PRESS","cover_images":"http://powells-covers-2.s3.amazonaws.com/9781626864580.jpg","listing_price":"14.95"},{"product_page":"http://www.powells.com/book/Outside-the-Lines-Too-An-Inspired-and-Inventive-Coloring-Book-by-Contemporary-Artists-9780399172052?partnerid=37023&p_wgt","title":"Outside
-        the Lines, Too: An Inspired and Inventive Coloring Book by Contemporary Artists","isbn":"9780399172052","author":"Souris
-        Hong","publisher":"Perigee Books","cover_images":"http://covers.powells.com/9780399172052.jpg","listing_price":"18"},{"product_page":"http://www.powells.com/book/Color-the-Natural-World-A-Timber-Press-Coloring-Book-9781604697186?partnerid=37023&p_wgt","title":"Color
-        the Natural World: A Timber Press Coloring Book","isbn":"9781604697186","author":"Zoe
-        Keller","publisher":"TIMBER PRESS","cover_images":"http://powells-covers-2.s3.amazonaws.com/9781604697186.jpg","listing_price":"12.95"},{"product_page":"http://www.powells.com/book/Enchanted-Forest-An-Inky-Quest-and-Coloring-Book-9781780674889?partnerid=37023&p_wgt","title":"Enchanted
-        Forest: An Inky Quest and Coloring Book","isbn":"9781780674889","author":"Johanna
-        Basford","publisher":"Chronicle Books","cover_images":"http://covers.powells.com/9781780674889.jpg","listing_price":"15.95"},{"product_page":"http://www.powells.com/book/Some-Luck-9780307744807?partnerid=37023&p_wgt","title":"Some
-        Luck","isbn":"9780307744807","author":"Jane Smiley","publisher":"PENGUIN RANDOM
-        HOUSE","cover_images":"http://powells-covers-2.s3.amazonaws.com/9780307744807.jpg","listing_price":"15.95"},{"product_page":"http://www.powells.com/book/Fantastic-Cities-9781452149578?partnerid=37023&p_wgt","title":"Fantastic
-        Cities","isbn":"9781452149578","author":"Steve McDonald","publisher":"Chronicle
-        Books (CA)","cover_images":"http://covers.powells.com/9781452149578.jpg","listing_price":"14.95"},{"product_page":"http://www.powells.com/book/My-Brilliant-Friend-9781609450786?partnerid=37023&p_wgt","title":"My
-        Brilliant Friend","isbn":"9781609450786","author":"Elena Ferrante","publisher":"EUROPA
-        EDITIONS","cover_images":"http://covers.powells.com/9781609450786.jpg","listing_price":"17"},{"product_page":"http://www.powells.com/book/Just-Mercy-A-Story-of-Justice-and-Redemption-9780812984965?partnerid=37023&p_wgt","title":"Just
-        Mercy: A Story of Justice and Redemption","isbn":"9780812984965","author":"Bryan
-        Stevenson","publisher":"SPIEGRA","cover_images":"http://powells-covers-2.s3.amazonaws.com/9780812984965.jpg","listing_price":"16"},{"product_page":"http://www.powells.com/book/All-the-Light-We-Cannot-See-9781476746586?partnerid=37023&p_wgt","title":"All
-        the Light We Cannot See","isbn":"9781476746586","author":"Anthony Doerr","publisher":"SIMON
-        & SCHUSTER TRADE","cover_images":"http://powells-covers-2.s3.amazonaws.com/9781476746586.jpg","listing_price":"29.7"},{"product_page":"http://www.powells.com/book/garden-Coloring-Book-9784768305911?partnerid=37023&p_wgt","title":"garden
-        Coloring Book","isbn":"9784768305911","author":"garden","publisher":"Genkosha","cover_images":"http://powells-covers-2.s3.amazonaws.com/9784768305911.jpg","listing_price":"12.95"},{"product_page":"http://www.powells.com/book/Fields-of-Blood-Religion-and-the-History-of-Violence-9780307946966?partnerid=37023&p_wgt","title":"Fields
-        of Blood: Religion and the History of Violence","isbn":"9780307946966","author":"Karen
-        Armstrong","publisher":"Anchor Books","cover_images":"http://powells-covers-2.s3.amazonaws.com/9780307946966.jpg","listing_price":"16.95"},{"product_page":"http://www.powells.com/book/Hidden-Nature-A-Coloring-Book-for-Grown-Ups-9788415967729?partnerid=37023&p_wgt","title":"Hidden
-        Nature: A Coloring Book for Grown Ups","isbn":"9788415967729","author":"Toc
-        de Groc","publisher":"Promopress","cover_images":"http://covers.powells.com/9788415967729.jpg","listing_price":"15.95"},{"product_page":"http://www.powells.com/book/Still-Life-with-Bread-Crumbs-9780812976892?partnerid=37023&p_wgt","title":"Still
-        Life with Bread Crumbs","isbn":"9780812976892","author":"Anna Quindlen","publisher":"Random
-        House Trade","cover_images":"http://covers.powells.com/9780812976892.jpg","listing_price":"16"},{"product_page":"http://www.powells.com/book/The-Bone-Clocks-9780812976823?partnerid=37023&p_wgt","title":"The
-        Bone Clocks","isbn":"9780812976823","author":"David Mitchell","publisher":"PENGUIN
-        RANDOM HOUSE","cover_images":"http://covers.powells.com/9780812976823.jpg","listing_price":"18"},{"product_page":"http://www.powells.com/book/The-Sleeper-and-the-Spindle-9780062398246?partnerid=37023&p_wgt","title":"The
-        Sleeper and the Spindle","isbn":"9780062398246","author":"Neil Gaiman and
-        Chris Riddell","publisher":"HarperCollins Publishers","cover_images":"http://covers.powells.com/9780062398246.jpg","listing_price":"19.99"},{"product_page":"http://www.powells.com/book/Atlas-of-Cursed-Places-A-Guide-to-Where-You-Dont-Want-to-Go-9781631910005?partnerid=37023&p_wgt","title":"Atlas
-        of Cursed Places: A Guide to Where You Dont Want to Go","isbn":"9781631910005","author":"Olivier
-        Le Carrer","publisher":"BLACK DOG & LEVENTHAL","cover_images":"http://powells-covers-2.s3.amazonaws.com/9781631910005.jpg","listing_price":"24.99"},{"product_page":"http://www.powells.com/book/Joan-of-Arc-A-Life-Transfigured-9780767932493?partnerid=37023&p_wgt","title":"Joan
-        of Arc: A Life Transfigured","isbn":"9780767932493","author":"Kathryn Harrison","publisher":"Anchor
-        Books","cover_images":"http://powells-covers-2.s3.amazonaws.com/9780767932493.jpg","listing_price":"16.95"},{"product_page":"http://www.powells.com/book/The-Official-A-Game-of-Thrones-Coloring-Book-9781101965764?partnerid=37023&p_wgt","title":"The
-        Official A Game of Thrones Coloring Book","isbn":"9781101965764","author":"George
-        R.R. Martin","publisher":"Bantam Books","cover_images":"http://powells-covers-2.s3.amazonaws.com/9781101965764.jpg","listing_price":"16.95"},{"product_page":"http://www.powells.com/book/The-Life-Changing-Magic-of-Tidying-Up-9781607747307?partnerid=37023&p_wgt","title":"The
-        Life-Changing Magic of Tidying Up","isbn":"9781607747307","author":"Marie
-        Kondo","publisher":"Ten Speed Press","cover_images":"http://powells-covers-2.s3.amazonaws.com/9781607747307.jpg","listing_price":"16.99"},{"product_page":"http://www.powells.com/book/Welcome-to-Night-Vale-9780062351425?partnerid=37023&p_wgt","title":"Welcome
-        to Night Vale","isbn":"9780062351425","author":"Joseph Fink and Jeffrey Cranor","publisher":"Harper
-        Perennial","cover_images":"http://covers.powells.com/9780062351425.jpg","listing_price":"19.99"},{"product_page":"http://www.powells.com/book/My-Life-on-the-Road-9780679456209?partnerid=37023&p_wgt","title":"My
-        Life on the Road","isbn":"9780679456209","author":"Gloria Steinem","publisher":"PENGUIN
-        RANDOM HOUSE","cover_images":"http://powells-covers-2.s3.amazonaws.com/9780679456209.jpg","listing_price":"28"},{"product_page":"http://www.powells.com/book/The-Best-Places-to-Pee-A-Guide-to-the-Funky-and-Fabulous-Bathrooms-of-Portland-9780985189303?partnerid=37023&p_wgt","title":"The
-        Best Places to Pee: A Guide to the Funky and Fabulous Bathrooms of Portland","isbn":"9780985189303","author":"Kelly
-        Melillo","publisher":"Silent 7 Publishing","cover_images":"http://covers.powells.com/9780985189303.jpg","listing_price":""},{"product_page":"http://www.powells.com/book/What-If-Serious-Scientific-Answers-to-Absurd-Hypothetical-Questions-9780544272996?partnerid=37023&p_wgt","title":"What
-        If Serious Scientific Answers to Absurd Hypothetical Questions","isbn":"9780544272996","author":"Randall
-        Munroe","publisher":"HOUGHTON MIFFLIN HARCOURT","cover_images":"http://covers.powells.com/9780544272996.jpg","listing_price":"24"},{"product_page":"http://www.powells.com/book/Furiously-Happy-A-Funny-Book-About-Horrible-Things-9781250077004?partnerid=37023&p_wgt","title":"Furiously
-        Happy: A Funny Book About Horrible Things","isbn":"9781250077004","author":"Jenny
-        Lawson","publisher":"Flatiron Books","cover_images":"http://powells-covers-2.s3.amazonaws.com/9781250077004.jpg","listing_price":"26.99"},{"product_page":"http://www.powells.com/book/Wildwood-Chronicles-01-Wildwood-9780062024701?partnerid=37023&p_wgt","title":"Wildwood
-        Chronicles 01 Wildwood","isbn":"9780062024701","author":"Colin Meloy, Carson
-        Ellis","publisher":"HARPERCOLLINS PUBLISHERS","cover_images":"http://testing-uat-covers.s3.amazonaws.com/9780062024701.jpg","listing_price":"8.99"},{"product_page":"http://www.powells.com/book/Alexander-Hamilton-9780143034759?partnerid=37023&p_wgt","title":"Alexander
-        Hamilton","isbn":"9780143034759","author":"Ron Chernow","publisher":"PENGUIN
-        PUTNAM TRADE","cover_images":"http://powells-covers-2.s3.amazonaws.com/9780143034759.jpg","listing_price":"20"},{"product_page":"http://www.powells.com/book/Invention-of-Nature-Alexander-von-Humboldts-New-World-9780385350662?partnerid=37023&p_wgt","title":"Invention
-        of Nature Alexander von Humboldts New World","isbn":"9780385350662","author":"Andrea
-        Wulf","publisher":"Knopf Publishing Group","cover_images":"http://www.powells.com/PORTALS/0/IMAGES/NOIMAGEAVAILABLE.GIF","listing_price":"30"},{"product_page":"http://www.powells.com/book/Hausfrau-9780812987294?partnerid=37023&p_wgt","title":"Hausfrau","isbn":"9780812987294","author":"Jill
-        Alexander Essbaum","publisher":"Random House Trade","cover_images":"http://powells-covers-2.s3.amazonaws.com/9780812987294.jpg","listing_price":"16"},{"product_page":"http://www.powells.com/book/Thing-Explainer-Complicated-Stuff-in-Simple-Words-9780544668256?partnerid=37023&p_wgt","title":"Thing
-        Explainer: Complicated Stuff in Simple Words","isbn":"9780544668256","author":"Randall
-        Munroe","publisher":"Houghton Mifflin","cover_images":"http://powells-covers-2.s3.amazonaws.com/9780544668256.jpg","listing_price":"24.95"},{"product_page":"http://www.powells.com/book/Vorrh-9781101873786?partnerid=37023&p_wgt","title":"Vorrh","isbn":"9781101873786","author":"Brian
-        Catling","publisher":"VINTAGE BOOKS","cover_images":"http://powells-covers-2.s3.amazonaws.com/9781101873786.jpg","listing_price":"15.95"},{"product_page":"http://www.powells.com/book/Vorrh-9781101873786?partnerid=37023&p_wgt","title":"Vorrh","isbn":"9781101873786","author":"Brian
-        Catling","publisher":"VINTAGE BOOKS","cover_images":"http://powells-covers-2.s3.amazonaws.com/9781101873786.jpg","listing_price":"15.95"},{"product_page":"http://www.powells.com/book/Lucky-Us-A-Novel-9780812978940?partnerid=37023&p_wgt","title":"Lucky
-        Us: A Novel","isbn":"9780812978940","author":"Amy Bloom","publisher":"PENGUIN
-        RANDOM HOUSE","cover_images":"http://covers.powells.com/9780812978940.jpg","listing_price":"16"},{"product_page":"http://www.powells.com/book/The-Book-of-Strange-New-Things-9780553418866?partnerid=37023&p_wgt","title":"The
-        Book of Strange New Things","isbn":"9780553418866","author":"Michel Faber","publisher":"HOGARTH
-        PRESS (ENGLAND)","cover_images":"http://covers.powells.com/9780553418866.jpg","listing_price":"17"},{"product_page":"http://www.powells.com/book/How-about-Never-Is-Never-Good-for-You-A-Life-in-Cartoons-9780805095906?partnerid=37023&p_wgt","title":"How
-        about Never Is Never Good for You A Life in Cartoons","isbn":"9780805095906","author":"Bob
-        Mankoff","publisher":"Henry Holt & Company","cover_images":"http://covers.powells.com/9780805095906.jpg","listing_price":"32.5"},{"product_page":"http://www.powells.com/book/Beyond-Words-What-Animals-Think-&-Feel-9780805098884?partnerid=37023&p_wgt","title":"Beyond
-        Words What Animals Think & Feel","isbn":"9780805098884","author":"Carl Safina","publisher":"HENRY
-        HOLT & CO","cover_images":"http://covers.powells.com/9780805098884.jpg","listing_price":"32"},{"product_page":"http://www.powells.com/book/Naughty-Mabel-9781481430227?partnerid=37023&p_wgt","title":"Naughty
-        Mabel","isbn":"9781481430227","author":"Nathan Lane, Devlin Elliott, Dan Krall","publisher":"Simon
-        & Schuster Books for Young Readers","cover_images":"http://covers.powells.com/9781481430227.jpg","listing_price":"17.99"},{"product_page":"http://www.powells.com/book/Hunger-Makes-Me-a-Modern-Girl-A-Memoir-9781594486630?partnerid=37023&p_wgt","title":"Hunger
-        Makes Me a Modern Girl: A Memoir","isbn":"9781594486630","author":"Carrie
-        Brownstein","publisher":"Riverhead Books","cover_images":"http://covers.powells.com/9781594486630.jpg","listing_price":"27.95"},{"product_page":"http://www.powells.com/book/Tangled-Treasures-Coloring-Book-50-Intricate-Tangle-Drawings-to-Color-with-Pens-Markers-or-Pencils-9781589238954?partnerid=37023&p_wgt","title":"Tangled
-        Treasures Coloring Book: 50 Intricate Tangle Drawings to Color with Pens,
-        Markers, or Pencils","isbn":"9781589238954","author":"Jane Monk","publisher":"CREATIVE
-        PUBLISHING INTERNATIONAL","cover_images":"http://powells-covers-2.s3.amazonaws.com/9781589238954.jpg","listing_price":"19.99"}]}]}'
-    http_version: 
-  recorded_at: Sat, 05 Dec 2015 11:30:55 GMT
-- request:
-    method: get
     uri: http://api.powells.com:8081/PowellsApi.svc/Inventory/<API_KEY>/9781501107832
     body:
       encoding: US-ASCII
       string: ''
     headers:
       User-Agent:
-      - excon/0.45.4
+      - excon/0.49.0
   response:
     status:
       code: 200
@@ -159,7 +19,7 @@ http_interactions:
       Pragma:
       - no-cache
       Content-Length:
-      - '1198'
+      - '184'
       Content-Type:
       - application/json; charset=utf-8
       Expires:
@@ -169,33 +29,27 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       Set-Cookie:
-      - ASP.NET_SessionId=hcqotydemwhqaydtb1u1zku1; path=/; HttpOnly
+      - ASP.NET_SessionId=3nub2pm2debxbcn4dhb4sr0o; path=/; HttpOnly
       X-AspNet-Version:
       - 4.0.30319
       X-Powered-By:
       - ASP.NET
       Date:
-      - Sat, 05 Dec 2015 11:30:55 GMT
+      - Sun, 24 Apr 2016 01:30:57 GMT
     body:
       encoding: UTF-8
-      string: '{"msg":"()","input":{"extension":"","page":"1","per_page":"10","api":"inventory","apiKey":"<API_KEY>"},"status":"success","meta":{"utm_source":"powellsapi","page":0,"last_page":0,"per_page":"10","cover_images":{"60":"http://powells-covers-2.s3.amazonaws.com/9781501107832.jpg","120":"http://powells-covers-2.s3.amazonaws.com/9781501107832.jpg"},"author":{"alpha":"Parker
-        Mary Louise","proper":"Mary Louise Parker"},"product_page":"http://www.powells.com/book/dear-mr-you-9781501107832?partnerid=37023","partner_id":"37023","page_results":1,"title":"Dear
-        Mr. You","Internal":1},"results":{"9781501107832":{"locations":{"Local Warehouse":{"18-9781501107832-0":
-        { "received_date":"11/10/2015 8:00:00 AM","shelf_location":"","binding":"Hardcover","section":{"minor":"~Biograph","major":"~Biograph"},"author":{"alpha":"Parker
-        Mary Louise","proper":"Mary Louise Parker"},"qty":"20","site_links":{"add_to_cart":"http://www.powells.com/ShoppingCart.aspx?ProductItemID=56415939","product_page":"http://www.powells.com/book/dear-mr-you-9781501107832?partnerid=37023"},"title":"Dear
-        Mr. You","isbn":"9781501107832","class":"New","price":"17.50","publisher":"Scribner
-        Book Company"}}}}}}'
+      string: '[{"msg":"[API key is not valid]","input":[{"extension":"data","page":"1","per_page":"10","api":"inventory","apiKey":"<API_KEY>"}],"status":"warning","meta":[{"utm_source":"powellsapi"}]}]'
     http_version: 
-  recorded_at: Sat, 05 Dec 2015 11:30:56 GMT
+  recorded_at: Sun, 24 Apr 2016 01:31:00 GMT
 - request:
     method: get
-    uri: http://api.powells.com:8081/PowellsApi.svc/content/<API_KEY>/9780590353427
+    uri: http://api.powells.com:8081/PowellsApi.svc/product/<API_KEY>/9781501107832?debug=1
     body:
       encoding: US-ASCII
       string: ''
     headers:
       User-Agent:
-      - excon/0.45.4
+      - excon/0.49.0
   response:
     status:
       code: 200
@@ -206,7 +60,7 @@ http_interactions:
       Pragma:
       - no-cache
       Content-Length:
-      - '5223'
+      - '182'
       Content-Type:
       - application/json; charset=utf-8
       Expires:
@@ -216,77 +70,18 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       Set-Cookie:
-      - ASP.NET_SessionId=4k53vel5igck0qqzbswc5aio; path=/; HttpOnly
+      - ASP.NET_SessionId=r4pd21jymsou4zq2l5lfriff; path=/; HttpOnly
       X-AspNet-Version:
       - 4.0.30319
       X-Powered-By:
       - ASP.NET
       Date:
-      - Sat, 05 Dec 2015 11:30:56 GMT
+      - Sun, 24 Apr 2016 01:30:58 GMT
     body:
       encoding: UTF-8
-      string: '{"$VAR1":[{"msg":"[]","input":[{"extension":"data","page":"1","per_page":"10","api":"content","apiKey":"<API_KEY>"}],"status":"success","meta":[{"utm_source":"powellsapi","page":0,"last_page":0,"per_page":10,"page_results":1,"Internal":1,"partner_id":"37023"}],"results":[{"synopsis":[{"text":"Rescued
-        from the outrageous neglect of his aunt and uncle, a young boy with a great
-        destiny proves his worth while attending Hogwarts School for Wizards and Witches.","type":"Synopsis"}],"review":[{"text":"\"[T]he
-        rapturous reception of the Harry Potter books is heartening, because J.K.
-        Rowling is a literary artist, and these three books possess more imaginative
-        life than the majority of novels that are published in this country in any
-        given year. They are full of marvelous invention and humor and fun, but they
-        have more than that.\" <i>Lee Siegel, The New Republic</i> (<a href=\"http://www.powells.com/review/2001_07_12\">read
-        the entire New Republic review here</a>)\r\n","type":"Review"},{"text":"\"A
-        wonderful first novel....Harry is destined for greatness....Much like Roald
-        Dahl, J.K. Rowling has a gift for keeping the emotions, fears, and triumphs
-        of her characters on a human scale, even while the supernatural is popping
-        out all over.\" <i>Michael Winerip, The New York Times Book Review</i>","type":"Review"},{"text":"\"Readers
-        are in for a delightful romp with this debut from a British author who dances
-        in the footsteps of P.L. Travers and Roald Dahl.\" <i>Publishers Weekly (starred
-        review)</i>","type":"Review"},{"text":"\"Obviously, <i>Harry Potter and the
-        Sorcerer''s Stone</i> should make any modern 11-year-old a very happy reader.
-        The novel moves quickly, packs in everything from a boa constrictor that winks
-        to a melancholy Zen-spouting centaur to an owl postal system, and ends with
-        a scary surprise.\" <i>Michael Dirda, The Washington Post Book World</i>","type":"Review"},{"text":"\"This
-        hugely enjoyable fantasy is filled with imaginative details, from oddly flavored
-        jelly beans to dragons'' eggs hatched on the hearth. It''s slanted toward
-        action-oriented readers, who will find that Briticisms meld with all the other
-        wonders of magic school.\" <i>Kirkus Reviews</i>","type":"Review"},{"text":"\"A
-        charming, imaginative, magical confection of a novel.\" <i>The Boston Globe</i>","type":"Review"},{"text":"\"Rowling''s
-        wonderful ability to put a fantastic spin on sports, student rivalry, and
-        eccentric faculty contributes to the humor, charm, and, well, delight of her
-        utterly captivating story.\" <i>Booklist, starred review</i>","type":"Review"},{"text":"\"Harry
-        himself is the perfect confused and unassuming hero, whom trouble follows
-        like a wizard''s familiar. After reading this entrancing fantasy, readers
-        will be convinced that they, too, could take the train to Hogwarts School,
-        if only they could find Platform Nine and Three Quarters at the King''s Cross
-        Station.\" <i>School Library Journal, starred review</i>","type":"Review"},{"text":"<div>*
-        \"Readers are in for a delightful romp with this award-winning debut from
-        a British author who dances in the footsteps of P.L. Travers and Roald Dahl.\"<p>*Publishers
-        Weekly, starred review<p>* \"Rowling''s wonderful ability to put a fantastic
-        spin on sports, student rivalry, and eccentric faculty contributes to the
-        humor, charm, and, well, delight of her utterly captivating story.\"<p>*Booklist,
-        starred review<p>* \"Harry himself is the perfect confused and unassuming
-        hero, whom trouble follows like a wizard''s familiar. After reading this entrancing
-        fantasy, readers will be convinced that they, too, could take the train to
-        Hogwarts School, if only they could find Platform Nine and Three Quarters
-        at the King''s Cross Station.\"<p>*School Library Journal, starred review<p></div>","type":"Review"}],"publisher_comments":[{"text":"Harry
-        Potter has never been the star of a Quidditch team, scoring points while riding
-        a broom far above the ground. He knows no spells, has never helped to hatch
-        a dragon, and has never worn a cloak of invisibility.\r\n\r\n<P>All he knows
-        is a miserable life with the Dursleys, his horrible aunt and uncle, and their
-        abominable son, Dudley &#151 a great big swollen spoiled bully. Harry''s room
-        is a closet at the foot of the stairs, and he hasn''t had a birthday party
-        in eleven years. \r\n\r\n<P>But all that is about to change when a mysterious
-        letter arrives by owl messenger: a letter with an invitation to an incredible
-        place that Harry &#151 and anyone who reads about him &#151 will find unforgettable.
-        \r\n\r\n<P>For it''s there that he finds not only friends, aerial sports,
-        and magic in everything from classes to meals, but a great destiny that''s
-        been waiting for him...if Harry can survive the encounter.","type":"Review"}],"pw_review":[],"about_the_author":[{"text":"J.K.
-        Rowling was a struggling single mother when she wrote the beginnings of <i>Harry
-        Potter and the Sorcerer''s Stone</i> on scraps of paper at a local cafe. But
-        her efforts were soon rewarded with an award from the Scottish Arts Council
-        enabling her to finish the novel. She has since won numerous awards including
-        the ABBY Award (American Booksellers Award) in 1999.","type":"Author The Author"}]}]}]}'
+      string: '[{"msg":"[API key is not valid]","input":[{"extension":"data","page":"1","per_page":"10","api":"product","apiKey":"<API_KEY>"}],"status":"warning","meta":[{"utm_source":"powellsapi"}]}]'
     http_version: 
-  recorded_at: Sat, 05 Dec 2015 11:30:57 GMT
+  recorded_at: Sun, 24 Apr 2016 01:31:01 GMT
 - request:
     method: get
     uri: http://api.powells.com:8081/PowellsApi.svc/locations/<API_KEY>
@@ -295,7 +90,7 @@ http_interactions:
       string: ''
     headers:
       User-Agent:
-      - excon/0.45.4
+      - excon/0.49.0
   response:
     status:
       code: 200
@@ -306,7 +101,7 @@ http_interactions:
       Pragma:
       - no-cache
       Content-Length:
-      - '2698'
+      - '184'
       Content-Type:
       - application/json; charset=utf-8
       Expires:
@@ -316,257 +111,18 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       Set-Cookie:
-      - ASP.NET_SessionId=mgqdmdpiu0iqoueit1qnqc3a; path=/; HttpOnly
+      - ASP.NET_SessionId=yozfohax1ls3ljzdgcftudko; path=/; HttpOnly
       X-AspNet-Version:
       - 4.0.30319
       X-Powered-By:
       - ASP.NET
       Date:
-      - Sat, 05 Dec 2015 11:30:57 GMT
+      - Sun, 24 Apr 2016 01:30:58 GMT
     body:
       encoding: UTF-8
-      string: '{"$VAR1":[{"msg":"[]","input":[{"extension":"data","page":"1","per_page":"10","api":"locations","apiKey":"<API_KEY>"}],"status":"success","meta":[{"utm_source":"powellsapi","page":0,"last_page":0,"per_page":10,"partner_id":"37023","page_results":1,"Internal":1}],"result":[{"hours":"","coordinates":[{"lat":"0.00","lng":"0.00"}],"name":"Burnside","phone":"","description":"Burnside","message":"","state":"OR","city":"Portland","zip":"97209","slug":"burnside","url":"http://www.powells.com/locations/powells-city-of-books","address":"1005
-        W Burnside St. Portland OR United States 97209"},{"hours":"","coordinates":[{"lat":"0.00","lng":"0.00"}],"name":"Cedar
-        Hills","phone":"","description":"Cedar Hills","message":"","state":"OR","city":"Beaverton","zip":"97005","slug":"cedar-hills","url":"http://www.powells.com/locations/powells-books-at-cedar-hills-crossing","address":"1075
-        First Ave Portland OR United States 97209"},{"hours":"","coordinates":[{"lat":"0.00","lng":"0.00"}],"name":"Home
-        & Garden","phone":"","description":"Home & Garden","message":"","state":"OR","city":"Portland","zip":"97214","slug":"home-&-garden","url":"http://www.powells.com/locations/powells-books-for-home-and-garden","address":"1005
-        W Burnside St. Portland OR United States 97209"},{"hours":"","coordinates":[{"lat":"0.00","lng":"0.00"}],"name":"Hawthorne","phone":"","description":"Hawthorne","message":"","state":"OR","city":"Portland","zip":"97214","slug":"hawthorne","url":"http://www.powells.com/locations/powells-books-on-hawthorne","address":"asdf
-        asdf OR United States asdf"},{"hours":"","coordinates":[{"lat":"0.00","lng":"0.00"}],"name":"PDX
-        - Oregon Market","phone":"","description":"Airport","message":"","state":"OR","city":"Portland","zip":"97218","slug":"pdx-oregon-market","url":"http://www.powells.com/locations/powells-books-at-pdx","address":"1005
-        W Burnside St. Portland OR United States 97209"},{"hours":"","coordinates":[{"lat":"0.00","lng":"0.00"}],"name":"Industrial","phone":"","description":"Local
-        Warehouse-17","message":"","state":"OR","city":"Portland","zip":"97210","slug":"industrial","url":"","address":"2720
-        NW 29th Avenue Portland OR United States 97210"},{"hours":"","coordinates":[{"lat":"0.00","lng":"0.00"}],"name":"RDC","phone":"","description":"Local
-        Warehouse-18","message":"","state":"OR","city":"Portland","zip":"97209","slug":"rdc","url":"","address":"1005
-        W Burnside St. Portland OR United States 97209"},{"hours":"","coordinates":[{"lat":"0.00","lng":"0.00"}],"name":"Online","phone":"","description":"Online","message":"","state":"OR","city":"Portland","zip":"97210","slug":"online","url":"","address":"ABC
-        Brookfield MS United States 530465"}]}]}'
+      string: '[{"msg":"[API key is not valid]","input":[{"extension":"data","page":"1","per_page":"10","api":"locations","apiKey":"<API_KEY>"}],"status":"warning","meta":[{"utm_source":"powellsapi"}]}]'
     http_version: 
-  recorded_at: Sat, 05 Dec 2015 11:30:58 GMT
-- request:
-    method: get
-    uri: http://api.powells.com:8081/PowellsApi.svc/search/<API_KEY>/harry%20potter/
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - excon/0.45.4
-  response:
-    status:
-      code: 200
-      message: 
-    headers:
-      Cache-Control:
-      - no-cache, no-store
-      Pragma:
-      - no-cache
-      Content-Length:
-      - '5629'
-      Content-Type:
-      - application/json; charset=utf-8
-      Expires:
-      - "-1"
-      Server:
-      - Microsoft-IIS/7.5
-      Access-Control-Allow-Origin:
-      - "*"
-      Set-Cookie:
-      - ASP.NET_SessionId=2bbm0usjymhkmxjnexv3gdfs; path=/; HttpOnly
-      X-AspNet-Version:
-      - 4.0.30319
-      X-Powered-By:
-      - ASP.NET
-      Date:
-      - Sat, 05 Dec 2015 11:30:59 GMT
-    body:
-      encoding: UTF-8
-      string: '[{"msg":"()","input":[{"extension":"","page":"1","per_page":"10","api":"search","apiKey":"<API_KEY>"}],"status":"success","meta":[{"utm_source":"powellsapi","page":0,"partner_id":"37023","last_page":0,"per_page":"10","page_results":1,"Internal":1}],"results":[{"product_page":"http://www.powells.com/book/harry-potter-in-the-real-world-9781156026526?partnerid=37023","cover_images":[{"60":"http://powells-covers-2.s3.amazonaws.com/9781156026526.jpg","120":"http://powells-covers-2.s3.amazonaws.com/9781156026526.jpg"}],"author":[{"alpha":"Books
-        LLC","proper":"LLC Books"}],"title":"Harry Potter in the Real World: Harry
-        Potter Attractions, Harry Potter Bands, Harry Potter Controversies, Harry
-        Potter Derived Works","isbn":"9781156026526","publisher":"Books LLC","list_prices":[{"19.99":"1"}]},{"product_page":"http://www.powells.com/book/harry-potter-fandom-9781156026519?partnerid=37023","cover_images":[{"60":"http://powells-covers-2.s3.amazonaws.com/9781156026519.jpg","120":"http://powells-covers-2.s3.amazonaws.com/9781156026519.jpg"}],"author":[{"alpha":"Books
-        LLC","proper":"LLC Books"}],"title":"Harry Potter Fandom: Harry Potter Bands,
-        Harry Potter Derived Works, Harry Potter Websites, Harry and the Potters Albums,
-        Harry Potter Fand","isbn":"9781156026519","publisher":"Books LLC","list_prices":[{"19.99":"1"}]},{"product_page":"http://www.powells.com/book/libri-di-harry-potter-9781230724034?partnerid=37023","cover_images":[{"60":"http://powells-covers-2.s3.amazonaws.com/9781230724034.jpg","120":"http://powells-covers-2.s3.amazonaws.com/9781230724034.jpg"}],"author":[{"alpha":"Wikipedia
-        Fonte","proper":"Fonte Wikipedia"}],"title":"Libri Di Harry Potter: Harry
-        Potter E I Doni Della Morte, Traduzione in Italiano Di Harry Potter, Harry
-        Potter E La Pietra Filosofale, Harry","isbn":"9781230724034","publisher":"University-Press.Org","list_prices":[{"0.0":"1"}]},{"product_page":"http://www.powells.com/book/harry-potter-in-the-real-world-9781157847496?partnerid=37023","cover_images":[{"60":"http://powells-covers-2.s3.amazonaws.com/9781157847496.jpg","120":"http://powells-covers-2.s3.amazonaws.com/9781157847496.jpg"}],"author":[{"alpha":"Books
-        LLC","proper":"LLC Books"}],"title":"Harry Potter in the Real World: Harry
-        Potter Attractions, Harry Potter Controversies, Harry Potter Fandom","isbn":"9781157847496","publisher":"Books
-        LLC","list_prices":[{"14.14":"1"}]},{"product_page":"http://www.powells.com/book/harry-potter-9781159040345?partnerid=37023","cover_images":[{"60":"http://powells-covers-2.s3.amazonaws.com/9781159040345.jpg","120":"http://powells-covers-2.s3.amazonaws.com/9781159040345.jpg"}],"author":[{"alpha":"Gruppe
-        Bcher","proper":"Bcher Gruppe"}],"title":"Harry Potter: Joanne K. Rowling,
-        Harry Potter Und Der Stein Der Weisen, Figuren Der Harry-Potter-Romane, Begriffe
-        Der Harry-Potter-R","isbn":"9781159040345","publisher":"Books LLC","list_prices":[{"14.14":"1"}]},{"product_page":"http://www.powells.com/book/harry-potter-controversies-9781155358062?partnerid=37023","cover_images":[{"60":"http://powells-covers-2.s3.amazonaws.com/9781155358062.jpg","120":"http://powells-covers-2.s3.amazonaws.com/9781155358062.jpg"}],"author":[{"alpha":"Books
-        LLC","proper":"LLC Books"}],"title":"Harry Potter Controversies: Religious
-        Debates Over the Harry Potter Series, Politics of Harry Potter, Harry Potter
-        Influences and Analogues","isbn":"9781155358062","publisher":"Books LLC","list_prices":[{"19.99":"1"}]},{"product_page":"http://www.powells.com/book/harry-potter-games-9781155358093?partnerid=37023","cover_images":[{"60":"http://powells-covers-2.s3.amazonaws.com/9781155358093.jpg","120":"http://powells-covers-2.s3.amazonaws.com/9781155358093.jpg"}],"author":[{"alpha":"Books
-        LLC","proper":"LLC Books"}],"title":"Harry Potter Games: Harry Potter and
-        the Order of the Phoenix, Harry Potter and the Half-Blood Prince, Harry Potter
-        Trading Card Game","isbn":"9781155358093","publisher":"Books LLC","list_prices":[{"19.99":"1"}]},{"product_page":"http://www.powells.com/book/harry-potter-universe-9781155358116?partnerid=37023","cover_images":[{"60":"http://powells-covers-2.s3.amazonaws.com/9781155358116.jpg","120":"http://powells-covers-2.s3.amazonaws.com/9781155358116.jpg"}],"author":[{"alpha":"Books
-        LLC","proper":"LLC Books"}],"title":"Harry Potter Universe: Muggle, Quidditch,
-        Hogwarts, Magic in Harry Potter, Spells in Harry Potter, Magical Objects in
-        Harry Potter","isbn":"9781155358116","publisher":"Books LLC","list_prices":[{"19.99":"1"}]},{"product_page":"http://www.powells.com/book/livre-de-harry-potter-9781230691480?partnerid=37023","cover_images":[{"60":"http://powells-covers-2.s3.amazonaws.com/9781230691480.jpg","120":"http://powells-covers-2.s3.amazonaws.com/9781230691480.jpg"}],"author":[{"alpha":"Wikipedia
-        Source","proper":"Source Wikipedia"}],"title":"Livre de Harry Potter: Harry
-        Potter Et La Coupe de Feu, Harry Potter Et Les Reliques de La Mort, Harry
-        Potter Et Le Prisonnier D''Azkaban, Har","isbn":"9781230691480","publisher":"University-Press.Org","list_prices":[{"0.0":"1"}]},{"product_page":"http://www.powells.com/book/harry-potter-universe-9781230495286?partnerid=37023","cover_images":[{"60":"http://powells-covers-2.s3.amazonaws.com/9781230495286.jpg","120":"http://powells-covers-2.s3.amazonaws.com/9781230495286.jpg"}],"author":[{"alpha":"Wikipedia
-        Source","proper":"Source Wikipedia"}],"title":"Harry Potter Universe: Muggle,
-        Quidditch, Hogwarts, Magic in Harry Potter, Magical Objects in Harry Potter,
-        List of Spells in Harry Potter, M","isbn":"9781230495286","publisher":"University-Press.Org","list_prices":[{"0.0":"1"}]}]}]'
-    http_version: 
-  recorded_at: Sat, 05 Dec 2015 11:31:00 GMT
-- request:
-    method: get
-    uri: http://api.powells.com:8081/PowellsApi.svc/locations/<API_KEY>/powells-city-of-books
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - excon/0.45.4
-  response:
-    status:
-      code: 200
-      message: 
-    headers:
-      Cache-Control:
-      - no-cache, no-store
-      Pragma:
-      - no-cache
-      Content-Length:
-      - '295'
-      Content-Type:
-      - application/json; charset=utf-8
-      Expires:
-      - "-1"
-      Server:
-      - Microsoft-IIS/7.5
-      Access-Control-Allow-Origin:
-      - "*"
-      Set-Cookie:
-      - ASP.NET_SessionId=iglzbmsndiktk5c2kd4rqyhz; path=/; HttpOnly
-      X-AspNet-Version:
-      - 4.0.30319
-      X-Powered-By:
-      - ASP.NET
-      Date:
-      - Sat, 05 Dec 2015 11:31:00 GMT
-    body:
-      encoding: UTF-8
-      string: '{"$VAR1":[{"msg":"[]","input":[{"extension":"data","page":"1","per_page":"10","api":"locations","apiKey":"<API_KEY>"}],"status":"success","meta":[{"utm_source":"powellsapi","page":0,"last_page":0,"per_page":10,"partner_id":"","page_results":1,"Internal":1}],"result":[]}]}'
-    http_version: 
-  recorded_at: Sat, 05 Dec 2015 11:31:00 GMT
-- request:
-    method: get
-    uri: http://api.powells.com:8081/PowellsApi.svc/search/<API_KEY>/harry%20potter/?debug=1
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - excon/0.45.4
-  response:
-    status:
-      code: 200
-      message: 
-    headers:
-      Cache-Control:
-      - no-cache, no-store
-      Pragma:
-      - no-cache
-      Content-Length:
-      - '5629'
-      Content-Type:
-      - application/json; charset=utf-8
-      Expires:
-      - "-1"
-      Server:
-      - Microsoft-IIS/7.5
-      Access-Control-Allow-Origin:
-      - "*"
-      Set-Cookie:
-      - ASP.NET_SessionId=v2uumvopusnfzy3nlfamjjec; path=/; HttpOnly
-      X-AspNet-Version:
-      - 4.0.30319
-      X-Powered-By:
-      - ASP.NET
-      Date:
-      - Sat, 05 Dec 2015 11:31:02 GMT
-    body:
-      encoding: UTF-8
-      string: '[{"msg":"()","input":[{"extension":"","page":"1","per_page":"10","api":"search","apiKey":"<API_KEY>"}],"status":"success","meta":[{"utm_source":"powellsapi","page":0,"partner_id":"37023","last_page":0,"per_page":"10","page_results":1,"Internal":1}],"results":[{"product_page":"http://www.powells.com/book/harry-potter-in-the-real-world-9781156026526?partnerid=37023","cover_images":[{"60":"http://powells-covers-2.s3.amazonaws.com/9781156026526.jpg","120":"http://powells-covers-2.s3.amazonaws.com/9781156026526.jpg"}],"author":[{"alpha":"Books
-        LLC","proper":"LLC Books"}],"title":"Harry Potter in the Real World: Harry
-        Potter Attractions, Harry Potter Bands, Harry Potter Controversies, Harry
-        Potter Derived Works","isbn":"9781156026526","publisher":"Books LLC","list_prices":[{"19.99":"1"}]},{"product_page":"http://www.powells.com/book/harry-potter-fandom-9781156026519?partnerid=37023","cover_images":[{"60":"http://powells-covers-2.s3.amazonaws.com/9781156026519.jpg","120":"http://powells-covers-2.s3.amazonaws.com/9781156026519.jpg"}],"author":[{"alpha":"Books
-        LLC","proper":"LLC Books"}],"title":"Harry Potter Fandom: Harry Potter Bands,
-        Harry Potter Derived Works, Harry Potter Websites, Harry and the Potters Albums,
-        Harry Potter Fand","isbn":"9781156026519","publisher":"Books LLC","list_prices":[{"19.99":"1"}]},{"product_page":"http://www.powells.com/book/libri-di-harry-potter-9781230724034?partnerid=37023","cover_images":[{"60":"http://powells-covers-2.s3.amazonaws.com/9781230724034.jpg","120":"http://powells-covers-2.s3.amazonaws.com/9781230724034.jpg"}],"author":[{"alpha":"Wikipedia
-        Fonte","proper":"Fonte Wikipedia"}],"title":"Libri Di Harry Potter: Harry
-        Potter E I Doni Della Morte, Traduzione in Italiano Di Harry Potter, Harry
-        Potter E La Pietra Filosofale, Harry","isbn":"9781230724034","publisher":"University-Press.Org","list_prices":[{"0.0":"1"}]},{"product_page":"http://www.powells.com/book/harry-potter-in-the-real-world-9781157847496?partnerid=37023","cover_images":[{"60":"http://powells-covers-2.s3.amazonaws.com/9781157847496.jpg","120":"http://powells-covers-2.s3.amazonaws.com/9781157847496.jpg"}],"author":[{"alpha":"Books
-        LLC","proper":"LLC Books"}],"title":"Harry Potter in the Real World: Harry
-        Potter Attractions, Harry Potter Controversies, Harry Potter Fandom","isbn":"9781157847496","publisher":"Books
-        LLC","list_prices":[{"14.14":"1"}]},{"product_page":"http://www.powells.com/book/harry-potter-9781159040345?partnerid=37023","cover_images":[{"60":"http://powells-covers-2.s3.amazonaws.com/9781159040345.jpg","120":"http://powells-covers-2.s3.amazonaws.com/9781159040345.jpg"}],"author":[{"alpha":"Gruppe
-        Bcher","proper":"Bcher Gruppe"}],"title":"Harry Potter: Joanne K. Rowling,
-        Harry Potter Und Der Stein Der Weisen, Figuren Der Harry-Potter-Romane, Begriffe
-        Der Harry-Potter-R","isbn":"9781159040345","publisher":"Books LLC","list_prices":[{"14.14":"1"}]},{"product_page":"http://www.powells.com/book/harry-potter-controversies-9781155358062?partnerid=37023","cover_images":[{"60":"http://powells-covers-2.s3.amazonaws.com/9781155358062.jpg","120":"http://powells-covers-2.s3.amazonaws.com/9781155358062.jpg"}],"author":[{"alpha":"Books
-        LLC","proper":"LLC Books"}],"title":"Harry Potter Controversies: Religious
-        Debates Over the Harry Potter Series, Politics of Harry Potter, Harry Potter
-        Influences and Analogues","isbn":"9781155358062","publisher":"Books LLC","list_prices":[{"19.99":"1"}]},{"product_page":"http://www.powells.com/book/harry-potter-games-9781155358093?partnerid=37023","cover_images":[{"60":"http://powells-covers-2.s3.amazonaws.com/9781155358093.jpg","120":"http://powells-covers-2.s3.amazonaws.com/9781155358093.jpg"}],"author":[{"alpha":"Books
-        LLC","proper":"LLC Books"}],"title":"Harry Potter Games: Harry Potter and
-        the Order of the Phoenix, Harry Potter and the Half-Blood Prince, Harry Potter
-        Trading Card Game","isbn":"9781155358093","publisher":"Books LLC","list_prices":[{"19.99":"1"}]},{"product_page":"http://www.powells.com/book/harry-potter-universe-9781155358116?partnerid=37023","cover_images":[{"60":"http://powells-covers-2.s3.amazonaws.com/9781155358116.jpg","120":"http://powells-covers-2.s3.amazonaws.com/9781155358116.jpg"}],"author":[{"alpha":"Books
-        LLC","proper":"LLC Books"}],"title":"Harry Potter Universe: Muggle, Quidditch,
-        Hogwarts, Magic in Harry Potter, Spells in Harry Potter, Magical Objects in
-        Harry Potter","isbn":"9781155358116","publisher":"Books LLC","list_prices":[{"19.99":"1"}]},{"product_page":"http://www.powells.com/book/livre-de-harry-potter-9781230691480?partnerid=37023","cover_images":[{"60":"http://powells-covers-2.s3.amazonaws.com/9781230691480.jpg","120":"http://powells-covers-2.s3.amazonaws.com/9781230691480.jpg"}],"author":[{"alpha":"Wikipedia
-        Source","proper":"Source Wikipedia"}],"title":"Livre de Harry Potter: Harry
-        Potter Et La Coupe de Feu, Harry Potter Et Les Reliques de La Mort, Harry
-        Potter Et Le Prisonnier D''Azkaban, Har","isbn":"9781230691480","publisher":"University-Press.Org","list_prices":[{"0.0":"1"}]},{"product_page":"http://www.powells.com/book/harry-potter-universe-9781230495286?partnerid=37023","cover_images":[{"60":"http://powells-covers-2.s3.amazonaws.com/9781230495286.jpg","120":"http://powells-covers-2.s3.amazonaws.com/9781230495286.jpg"}],"author":[{"alpha":"Wikipedia
-        Source","proper":"Source Wikipedia"}],"title":"Harry Potter Universe: Muggle,
-        Quidditch, Hogwarts, Magic in Harry Potter, Magical Objects in Harry Potter,
-        List of Spells in Harry Potter, M","isbn":"9781230495286","publisher":"University-Press.Org","list_prices":[{"0.0":"1"}]}]}]'
-    http_version: 
-  recorded_at: Sat, 05 Dec 2015 11:31:02 GMT
-- request:
-    method: get
-    uri: http://api.powells.com:8081/PowellsApi.svc/product/<API_KEY>/9781501107832
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - excon/0.45.4
-  response:
-    status:
-      code: 200
-      message: 
-    headers:
-      Cache-Control:
-      - no-cache, no-store
-      Pragma:
-      - no-cache
-      Content-Length:
-      - '769'
-      Content-Type:
-      - application/json; charset=utf-8
-      Expires:
-      - "-1"
-      Server:
-      - Microsoft-IIS/7.5
-      Access-Control-Allow-Origin:
-      - "*"
-      Set-Cookie:
-      - ASP.NET_SessionId=3nzjm53lpf5sfntuyrobwlfo; path=/; HttpOnly
-      X-AspNet-Version:
-      - 4.0.30319
-      X-Powered-By:
-      - ASP.NET
-      Date:
-      - Sat, 05 Dec 2015 11:31:06 GMT
-    body:
-      encoding: UTF-8
-      string: '[{"msg":"()","input":[{"extension":"","page":"1","per_page":"10","api":"product","apiKey":"<API_KEY>"}],"status":"success","meta":[{"utm_source":"powellsapi","page":0,"partner_id":"37023","last_page":0,"per_page":"10","page_results":1,"Internal":1}],"results":[{"cover_images":[{"60":"http://powells-covers-2.s3.amazonaws.com/9781501107832.jpg","120":"http://powells-covers-2.s3.amazonaws.com/9781501107832.jpg"}],"related_isbns":[{"isbn":["9780385540612","9780385347563"]}],"author":[{"alpha":"Parker
-        Mary Louise","proper":"Mary Louise Parker"}],"product_page":"http://www.powells.com/book/dear-mr-you-9781501107832?partnerid=37023","isbn":"9781501107832","title":"Dear
-        Mr. You","publisher":"Scribner Book Company","list_prices":[{"25":"1"}]}]}]'
-    http_version: 
-  recorded_at: Sat, 05 Dec 2015 11:31:07 GMT
+  recorded_at: Sun, 24 Apr 2016 01:31:01 GMT
 - request:
     method: get
     uri: http://api.powells.com:8081/PowellsApi.svc/recommendation/<API_KEY>/9780590353427
@@ -575,7 +131,7 @@ http_interactions:
       string: ''
     headers:
       User-Agent:
-      - excon/0.45.4
+      - excon/0.49.0
   response:
     status:
       code: 200
@@ -586,7 +142,7 @@ http_interactions:
       Pragma:
       - no-cache
       Content-Length:
-      - '4386'
+      - '189'
       Content-Type:
       - application/json; charset=utf-8
       Expires:
@@ -596,45 +152,27 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       Set-Cookie:
-      - ASP.NET_SessionId=12cb5kxvi4pucwvrjvedv1ja; path=/; HttpOnly
+      - ASP.NET_SessionId=hovtx5b0xgx2wd44xa3bsyzt; path=/; HttpOnly
       X-AspNet-Version:
       - 4.0.30319
       X-Powered-By:
       - ASP.NET
       Date:
-      - Sat, 05 Dec 2015 11:31:09 GMT
+      - Sun, 24 Apr 2016 01:30:58 GMT
     body:
       encoding: UTF-8
-      string: '{"$VAR1":[{"msg":"[]","input":[{"extension":"data","page":"1","per_page":"10","api":"recommendation","apiKey":"<API_KEY>"}],"status":"success","meta":[{"utm_source":"powellsapi","partner_id":"37023","Internal":1}],"results":[{"product_page":"http://www.powells.com/book/Harry-Potter-05-&-the-Order-of-the-Phoenix-9780439358071?partnerid=37023&p_wgt","title":"Harry
-        Potter 05 & the Order of the Phoenix","isbn":"9780439358071","author":[{"alpha":"Rowling
-        J K","proper":"J K Rowling"}],"publisher":"SCHOLASTIC INC.","cover_images":[{"60":"http://powells-covers-2.s3.amazonaws.com/9780439358071.jpg","120":"http://powells-covers-2.s3.amazonaws.com/9780439358071.jpg"}],"listing_price":"12.99"},{"product_page":"http://www.powells.com/book/Harry-Potter-06-&-The-Half-Blood-Prince-9780439785969?partnerid=37023&p_wgt","title":"Harry
-        Potter 06 & The Half Blood Prince","isbn":"9780439785969","author":[{"alpha":"Rowling
-        J K","proper":"J K Rowling"}],"publisher":"SCHOLASTIC INC.","cover_images":[{"60":"http://powells-covers-2.s3.amazonaws.com/9780439785969.jpg","120":"http://powells-covers-2.s3.amazonaws.com/9780439785969.jpg"}],"listing_price":"12.99"},{"product_page":"http://www.powells.com/book/Harry-Potter-04-&-The-Goblet-Of-Fire-9780439139601?partnerid=37023&p_wgt","title":"Harry
-        Potter 04 & The Goblet Of Fire","isbn":"9780439139601","author":[{"alpha":"Rowling
-        J K","proper":"J K Rowling"}],"publisher":"SCHOLASTIC INC.","cover_images":[{"60":"http://powells-covers-2.s3.amazonaws.com/9780439139601.jpg","120":"http://powells-covers-2.s3.amazonaws.com/9780439139601.jpg"}],"listing_price":"12.99"},{"product_page":"http://www.powells.com/book/Conversations-With-Jk-Rowling-9780439314558?partnerid=37023&p_wgt","title":"Conversations
-        With Jk Rowling","isbn":"9780439314558","author":[{"alpha":"Rowling J K","proper":"J
-        K Rowling"}],"publisher":"SCHOLASTIC INC.","cover_images":[{"60":"http://powells-covers-2.s3.amazonaws.com/9780439314558.jpg","120":"http://powells-covers-2.s3.amazonaws.com/9780439314558.jpg"}],"listing_price":"4.99"},{"product_page":"http://www.powells.com/book/Harry-Potter-07-&-The-Deathly-Hallows-9780545139700?partnerid=37023&p_wgt","title":"Harry
-        Potter 07 & The Deathly Hallows","isbn":"9780545139700","author":[{"alpha":"Rowling
-        J K","proper":"J K Rowling"}],"publisher":"SCHOLASTIC INC.","cover_images":[{"60":"http://powells-covers-2.s3.amazonaws.com/9780545139700.jpg","120":"http://powells-covers-2.s3.amazonaws.com/9780545139700.jpg"}],"listing_price":"14.99"},{"product_page":"http://www.powells.com/book/The-Arctic-Incident-9780786808557?partnerid=37023&p_wgt","title":"The
-        Arctic Incident","isbn":"9780786808557","author":[{"alpha":"Colfer Eoin","proper":"Eoin
-        Colfer"}],"publisher":"Disney Pr","cover_images":[{"60":"http://powells-covers-2.s3.amazonaws.com/9780786808557.jpg","120":"http://powells-covers-2.s3.amazonaws.com/9780786808557.jpg"}],"listing_price":"16.99"},{"product_page":"http://www.powells.com/book/Sorcerers-Companion-A-Guide-To-The-Magical-World-of-Harry-Potter-9780767908474?partnerid=37023&p_wgt","title":"Sorcerers
-        Companion A Guide To The Magical World of Harry Potter","isbn":"9780767908474","author":[{"alpha":"Rowling
-        J K","proper":"J K Rowling"}],"publisher":"BANTAM DOUBLEDAY DELL","cover_images":[{"60":"http://powells-covers-2.s3.amazonaws.com/9780767908474.jpg","120":"http://powells-covers-2.s3.amazonaws.com/9780767908474.jpg"}],"listing_price":"15.95"},{"product_page":"http://www.powells.com/book/Summerland-9780786808779?partnerid=37023&p_wgt","title":"Summerland","isbn":"9780786808779","author":[{"alpha":"Chabon
-        Michael","proper":"Michael Chabon"}],"publisher":"HYPERION BOOKS","cover_images":[{"60":"http://powells-covers-2.s3.amazonaws.com/9780786808779.jpg","120":"http://powells-covers-2.s3.amazonaws.com/9780786808779.jpg"}],"listing_price":"8.95"},{"product_page":"http://www.powells.com/book/Sea-Monsters-and-Other-Delicacies-9781416986508?partnerid=37023&p_wgt","title":"Sea
-        Monsters and Other Delicacies","isbn":"9781416986508","author":[{"alpha":"Macdonald
-        David Sinden and Matthew Morgan and Guy","proper":"David Sinden and Matthew
-        Morgan and Guy Macdonald"}],"publisher":"Simon & Schuster","cover_images":[{"60":"http://powells-covers-2.s3.amazonaws.com/9781416986508.jpg","120":"http://powells-covers-2.s3.amazonaws.com/9781416986508.jpg"}],"listing_price":"9.99"}]}]}'
+      string: '[{"msg":"[API key is not valid]","input":[{"extension":"data","page":"1","per_page":"10","api":"recommendation","apiKey":"<API_KEY>"}],"status":"warning","meta":[{"utm_source":"powellsapi"}]}]'
     http_version: 
-  recorded_at: Sat, 05 Dec 2015 11:31:10 GMT
+  recorded_at: Sun, 24 Apr 2016 01:31:02 GMT
 - request:
     method: get
-    uri: http://api.powells.com:8081/PowellsApi.svc/search/<API_KEY>/harry%20potter/?per_page=20
+    uri: http://api.powells.com:8081/PowellsApi.svc/content/<API_KEY>/9780590353427
     body:
       encoding: US-ASCII
       string: ''
     headers:
       User-Agent:
-      - excon/0.45.4
+      - excon/0.49.0
   response:
     status:
       code: 200
@@ -645,7 +183,7 @@ http_interactions:
       Pragma:
       - no-cache
       Content-Length:
-      - '5629'
+      - '182'
       Content-Type:
       - application/json; charset=utf-8
       Expires:
@@ -655,46 +193,139 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       Set-Cookie:
-      - ASP.NET_SessionId=auqnxe0botqjkwazhqpdcpi3; path=/; HttpOnly
+      - ASP.NET_SessionId=znw1myheplh3k2f5upqt1zph; path=/; HttpOnly
       X-AspNet-Version:
       - 4.0.30319
       X-Powered-By:
       - ASP.NET
       Date:
-      - Sat, 05 Dec 2015 11:31:12 GMT
+      - Sun, 24 Apr 2016 01:30:59 GMT
     body:
       encoding: UTF-8
-      string: '[{"msg":"()","input":[{"extension":"","page":"1","per_page":"10","api":"search","apiKey":"<API_KEY>"}],"status":"success","meta":[{"utm_source":"powellsapi","page":0,"partner_id":"37023","last_page":0,"per_page":"10","page_results":1,"Internal":1}],"results":[{"product_page":"http://www.powells.com/book/harry-potter-fandom-9781156026519?partnerid=37023","cover_images":[{"60":"http://powells-covers-2.s3.amazonaws.com/9781156026519.jpg","120":"http://powells-covers-2.s3.amazonaws.com/9781156026519.jpg"}],"author":[{"alpha":"Books
-        LLC","proper":"LLC Books"}],"title":"Harry Potter Fandom: Harry Potter Bands,
-        Harry Potter Derived Works, Harry Potter Websites, Harry and the Potters Albums,
-        Harry Potter Fand","isbn":"9781156026519","publisher":"Books LLC","list_prices":[{"19.99":"1"}]},{"product_page":"http://www.powells.com/book/harry-potter-in-the-real-world-9781156026526?partnerid=37023","cover_images":[{"60":"http://powells-covers-2.s3.amazonaws.com/9781156026526.jpg","120":"http://powells-covers-2.s3.amazonaws.com/9781156026526.jpg"}],"author":[{"alpha":"Books
-        LLC","proper":"LLC Books"}],"title":"Harry Potter in the Real World: Harry
-        Potter Attractions, Harry Potter Bands, Harry Potter Controversies, Harry
-        Potter Derived Works","isbn":"9781156026526","publisher":"Books LLC","list_prices":[{"19.99":"1"}]},{"product_page":"http://www.powells.com/book/libri-di-harry-potter-9781230724034?partnerid=37023","cover_images":[{"60":"http://powells-covers-2.s3.amazonaws.com/9781230724034.jpg","120":"http://powells-covers-2.s3.amazonaws.com/9781230724034.jpg"}],"author":[{"alpha":"Wikipedia
-        Fonte","proper":"Fonte Wikipedia"}],"title":"Libri Di Harry Potter: Harry
-        Potter E I Doni Della Morte, Traduzione in Italiano Di Harry Potter, Harry
-        Potter E La Pietra Filosofale, Harry","isbn":"9781230724034","publisher":"University-Press.Org","list_prices":[{"0.0":"1"}]},{"product_page":"http://www.powells.com/book/harry-potter-in-the-real-world-9781157847496?partnerid=37023","cover_images":[{"60":"http://powells-covers-2.s3.amazonaws.com/9781157847496.jpg","120":"http://powells-covers-2.s3.amazonaws.com/9781157847496.jpg"}],"author":[{"alpha":"Books
-        LLC","proper":"LLC Books"}],"title":"Harry Potter in the Real World: Harry
-        Potter Attractions, Harry Potter Controversies, Harry Potter Fandom","isbn":"9781157847496","publisher":"Books
-        LLC","list_prices":[{"14.14":"1"}]},{"product_page":"http://www.powells.com/book/harry-potter-9781159040345?partnerid=37023","cover_images":[{"60":"http://powells-covers-2.s3.amazonaws.com/9781159040345.jpg","120":"http://powells-covers-2.s3.amazonaws.com/9781159040345.jpg"}],"author":[{"alpha":"Gruppe
-        Bcher","proper":"Bcher Gruppe"}],"title":"Harry Potter: Joanne K. Rowling,
-        Harry Potter Und Der Stein Der Weisen, Figuren Der Harry-Potter-Romane, Begriffe
-        Der Harry-Potter-R","isbn":"9781159040345","publisher":"Books LLC","list_prices":[{"14.14":"1"}]},{"product_page":"http://www.powells.com/book/harry-potter-controversies-9781155358062?partnerid=37023","cover_images":[{"60":"http://powells-covers-2.s3.amazonaws.com/9781155358062.jpg","120":"http://powells-covers-2.s3.amazonaws.com/9781155358062.jpg"}],"author":[{"alpha":"Books
-        LLC","proper":"LLC Books"}],"title":"Harry Potter Controversies: Religious
-        Debates Over the Harry Potter Series, Politics of Harry Potter, Harry Potter
-        Influences and Analogues","isbn":"9781155358062","publisher":"Books LLC","list_prices":[{"19.99":"1"}]},{"product_page":"http://www.powells.com/book/harry-potter-games-9781155358093?partnerid=37023","cover_images":[{"60":"http://powells-covers-2.s3.amazonaws.com/9781155358093.jpg","120":"http://powells-covers-2.s3.amazonaws.com/9781155358093.jpg"}],"author":[{"alpha":"Books
-        LLC","proper":"LLC Books"}],"title":"Harry Potter Games: Harry Potter and
-        the Order of the Phoenix, Harry Potter and the Half-Blood Prince, Harry Potter
-        Trading Card Game","isbn":"9781155358093","publisher":"Books LLC","list_prices":[{"19.99":"1"}]},{"product_page":"http://www.powells.com/book/harry-potter-universe-9781155358116?partnerid=37023","cover_images":[{"60":"http://powells-covers-2.s3.amazonaws.com/9781155358116.jpg","120":"http://powells-covers-2.s3.amazonaws.com/9781155358116.jpg"}],"author":[{"alpha":"Books
-        LLC","proper":"LLC Books"}],"title":"Harry Potter Universe: Muggle, Quidditch,
-        Hogwarts, Magic in Harry Potter, Spells in Harry Potter, Magical Objects in
-        Harry Potter","isbn":"9781155358116","publisher":"Books LLC","list_prices":[{"19.99":"1"}]},{"product_page":"http://www.powells.com/book/livre-de-harry-potter-9781230691480?partnerid=37023","cover_images":[{"60":"http://powells-covers-2.s3.amazonaws.com/9781230691480.jpg","120":"http://powells-covers-2.s3.amazonaws.com/9781230691480.jpg"}],"author":[{"alpha":"Wikipedia
-        Source","proper":"Source Wikipedia"}],"title":"Livre de Harry Potter: Harry
-        Potter Et La Coupe de Feu, Harry Potter Et Les Reliques de La Mort, Harry
-        Potter Et Le Prisonnier D''Azkaban, Har","isbn":"9781230691480","publisher":"University-Press.Org","list_prices":[{"0.0":"1"}]},{"product_page":"http://www.powells.com/book/harry-potter-universe-9781230495286?partnerid=37023","cover_images":[{"60":"http://powells-covers-2.s3.amazonaws.com/9781230495286.jpg","120":"http://powells-covers-2.s3.amazonaws.com/9781230495286.jpg"}],"author":[{"alpha":"Wikipedia
-        Source","proper":"Source Wikipedia"}],"title":"Harry Potter Universe: Muggle,
-        Quidditch, Hogwarts, Magic in Harry Potter, Magical Objects in Harry Potter,
-        List of Spells in Harry Potter, M","isbn":"9781230495286","publisher":"University-Press.Org","list_prices":[{"0.0":"1"}]}]}]'
+      string: '[{"msg":"[API key is not valid]","input":[{"extension":"data","page":"1","per_page":"10","api":"content","apiKey":"<API_KEY>"}],"status":"warning","meta":[{"utm_source":"powellsapi"}]}]'
     http_version: 
-  recorded_at: Sat, 05 Dec 2015 11:31:12 GMT
-recorded_with: VCR 3.0.0
+  recorded_at: Sun, 24 Apr 2016 01:31:02 GMT
+- request:
+    method: get
+    uri: http://api.powells.com:8081/PowellsApi.svc/pdxbestsellers/<API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - excon/0.49.0
+  response:
+    status:
+      code: 200
+      message: 
+    headers:
+      Cache-Control:
+      - no-cache, no-store
+      Pragma:
+      - no-cache
+      Content-Length:
+      - '189'
+      Content-Type:
+      - application/json; charset=utf-8
+      Expires:
+      - "-1"
+      Server:
+      - Microsoft-IIS/7.5
+      Access-Control-Allow-Origin:
+      - "*"
+      Set-Cookie:
+      - ASP.NET_SessionId=b05uie3v0cbhwnkw2pfdocey; path=/; HttpOnly
+      X-AspNet-Version:
+      - 4.0.30319
+      X-Powered-By:
+      - ASP.NET
+      Date:
+      - Sun, 24 Apr 2016 01:31:00 GMT
+    body:
+      encoding: UTF-8
+      string: '[{"msg":"[API key is not valid]","input":[{"extension":"data","page":"1","per_page":"10","api":"pdxbestsellers","apiKey":"<API_KEY>"}],"status":"warning","meta":[{"utm_source":"powellsapi"}]}]'
+    http_version: 
+  recorded_at: Sun, 24 Apr 2016 01:31:03 GMT
+- request:
+    method: get
+    uri: http://api.powells.com:8081/PowellsApi.svc/locations/<API_KEY>/powells-city-of-books
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - excon/0.49.0
+  response:
+    status:
+      code: 200
+      message: 
+    headers:
+      Cache-Control:
+      - no-cache, no-store
+      Pragma:
+      - no-cache
+      Content-Length:
+      - '184'
+      Content-Type:
+      - application/json; charset=utf-8
+      Expires:
+      - "-1"
+      Server:
+      - Microsoft-IIS/7.5
+      Access-Control-Allow-Origin:
+      - "*"
+      Set-Cookie:
+      - ASP.NET_SessionId=3t3vjhrfn4t0gzpecb1s3y3b; path=/; HttpOnly
+      X-AspNet-Version:
+      - 4.0.30319
+      X-Powered-By:
+      - ASP.NET
+      Date:
+      - Sun, 24 Apr 2016 01:31:00 GMT
+    body:
+      encoding: UTF-8
+      string: '[{"msg":"[API key is not valid]","input":[{"extension":"data","page":"1","per_page":"10","api":"locations","apiKey":"<API_KEY>"}],"status":"warning","meta":[{"utm_source":"powellsapi"}]}]'
+    http_version: 
+  recorded_at: Sun, 24 Apr 2016 01:31:03 GMT
+- request:
+    method: get
+    uri: http://api.powells.com:8081/PowellsApi.svc/product/<API_KEY>/9781501107832
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - excon/0.49.0
+  response:
+    status:
+      code: 200
+      message: 
+    headers:
+      Cache-Control:
+      - no-cache, no-store
+      Pragma:
+      - no-cache
+      Content-Length:
+      - '182'
+      Content-Type:
+      - application/json; charset=utf-8
+      Expires:
+      - "-1"
+      Server:
+      - Microsoft-IIS/7.5
+      Access-Control-Allow-Origin:
+      - "*"
+      Set-Cookie:
+      - ASP.NET_SessionId=az3uvbox5m03yw03ofr41fzl; path=/; HttpOnly
+      X-AspNet-Version:
+      - 4.0.30319
+      X-Powered-By:
+      - ASP.NET
+      Date:
+      - Sun, 24 Apr 2016 01:31:00 GMT
+    body:
+      encoding: UTF-8
+      string: '[{"msg":"[API key is not valid]","input":[{"extension":"data","page":"1","per_page":"10","api":"product","apiKey":"<API_KEY>"}],"status":"warning","meta":[{"utm_source":"powellsapi"}]}]'
+    http_version: 
+  recorded_at: Sun, 24 Apr 2016 01:31:03 GMT
+recorded_with: VCR 3.0.1
