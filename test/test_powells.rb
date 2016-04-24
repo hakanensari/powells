@@ -1,8 +1,14 @@
 require_relative 'helper'
 
-class TestPowells < Minitest::Unit::TestCase
+class TestPowells < Minitest::Test
   def setup
-    VCR.insert_cassette('powells')
+    if ENV['POWELLS_API_KEY']
+      mode = :all
+    else
+      ENV['POWELLS_API_KEY'] = 'secret'
+      mode = :none
+    end
+    VCR.insert_cassette('powells', record: mode)
     @powells = Powells.new
   end
 

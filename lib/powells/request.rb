@@ -5,6 +5,7 @@ module Powells
   class Request
     # Create a new request
     def initialize(api_key: ENV['POWELLS_API_KEY'])
+      @debug = false
       @api_key = api_key
     end
 
@@ -32,7 +33,7 @@ module Powells
 
     # Retrieve product information by way of keywords
     def search(keywords, options = {})
-      encoded_keywords = URI.encode(keywords) + '/'
+      encoded_keywords = CGI.escape(keywords) + '/'
       get('search', encoded_keywords, options: options)
     end
 
